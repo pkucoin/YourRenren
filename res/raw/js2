@@ -1,0 +1,3 @@
+	var markerClusterer = new BMapLib.MarkerClusterer(map, {markers:markers});
+    </script>
+</html>

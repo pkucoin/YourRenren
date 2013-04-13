@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+   	 
+   	 <!-- Logo --> 
+   	 <ImageView android:layout_width="wrap_content"
+   	 	android:layout_height="wrap_content"
+   	 	android:layout_gravity="center_horizontal"
+   	 	android:paddingTop="15dip"
+   	 	android:id="@+id/userlogo" 
+   	 	android:src="@drawable/logo"
+   	 	/>
+
+   	 
+   	 <!-- auth buttons -->
+
+   	 <LinearLayout
+   	     android:layout_width="fill_parent"
+   	     android:layout_height="wrap_content"
+   	     android:layout_gravity="center"
+   	     android:gravity="center_horizontal"
+   	     android:orientation="vertical"
+   	     android:paddingBottom="20dip"
+   	     android:paddingLeft="40dip"
+   	     android:paddingRight="40dip"
+   	     android:paddingTop="80dip" >
+
+   	     <TextView
+   	         android:layout_width="fill_parent"
+   	         android:layout_height="wrap_content"
+   	         android:gravity="center"
+   	         android:paddingBottom="15dip"
+   	         android:id="@+id/birthday_info"
+   	         android:textColor="@color/login_hint_text" />
+
+   	 </LinearLayout>
+   	 	
+   	 <!-- footer -->
+   	 <LinearLayout 
+   	 	android:layout_width="fill_parent"
+   	 	android:layout_height="fill_parent"
+   	 	android:paddingLeft="40dip"
+   	    android:paddingRight="40dip">
+   	 	<Button 
+   	 		android:id="@+id/setsms"
+   	 		android:layout_width="fill_parent"
+   	 		android:layout_height="40dip"
+   	 		android:layout_marginBottom="12dip"
+   	 		android:gravity="center"
+   	 		android:background="@drawable/auth_button_bg"
+   	 		android:text="@string/SetSMS"
+   	 		/>
+   		 <TextView 
+   	 		android:layout_width="fill_parent"
+   	 		android:layout_height="wrap_content"
+   	 		android:layout_gravity="bottom"
+   	 		android:paddingBottom="20dip"
+   	 		android:text="@string/copyright"
+   	 		android:textColor="@color/copyright_info" 
+   	 		android:gravity="center_horizontal"/>
+   	 </LinearLayout>
+</LinearLayout>

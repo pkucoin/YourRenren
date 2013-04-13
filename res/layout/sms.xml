@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@color/main_bg">
+    <TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:text="@string/txtPhoneNo"
+			android:textColor="@color/Black" />
+    <!-- text's value define in res/values/strings.xml -->
+    
+    <EditText android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/edtPhoneNo"/>
+	
+    <TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/txtContent"
+			android:textColor="@color/Black" />
+    
+    <EditText android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:minLines="3"
+			android:id="@+id/edtContent"/>
+   
+    <Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btnText"
+			android:id="@+id/btnSend"/>
+</LinearLayout>

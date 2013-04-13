@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="match_parent"
+  	android:layout_height="match_parent" 
+  	android:orientation="vertical"
+  	android:background="@color/White">
+
+    <EditText
+        android:id="@+id/keywordedittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:hint="请输入关键词"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/keywordbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="搜索我的状态" />
+
+    <ListView
+        android:id="@+id/keywordlistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+  
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YourRenren</string>
+    <string name="copyright">copyright 2012. @pkucoin</string>
+       
+    <string name="login">登录</string>
+    <string name="login_hint">欢迎使用YourRenren</string>
+    <string name="auth_site_mode">使用OAuth2登陆</string>
+    <string name="sso_mode">SSO方式</string>
+    <string name="password_flow_mode">用户名密码方式</string>
+    
+    <string name="upload_photo">上传照片</string>
+    
+    <string name="logout">登出</string>
+    <string name="view_log">查看Log</string>
+    
+    <string name="user_info_group">用户信息</string>
+    <string name="logined_user_info">登录用户信息</string>
+    <string name="logined_user_info_api">getCurrentUserInfo</string>
+    <string name="albums_info">相册信息</string>
+    <string name="albums_info_api">getAlbums</string>
+    
+    <string name="users_getinfo">获取指定uid用户信息</string>
+    <string name="users_getinfo_api">users.getInfo</string>
+    
+    <string name="friends_get">获取当前用户好友uid列表</string>
+    <string name="friends_get_api">friends.get</string>
+    
+    <string name="friends_get_friends">获取当前用户好友列表</string>
+    <string name="friends_get_friends_api">friends.getFriends</string>
+    
+    <string name="publish_group">发布内容</string>
+    <string name="publish_status">状态</string>
+    <string name="publish_status_api">publishStatus</string>
+    <string name="publish_feed">新鲜事</string>
+    <string name="publish_feed_api">publishFeed</string>
+    <string name="publish_photo">照片</string>
+    <string name="publish_photo_api">uploadPhoto</string>
+    <string name="create_album">新建相册</string>
+    <string name="create_album_api">createAlbum</string>
+    
+    <string name="one_click_publish_group">一键发布</string>
+    <string name="one_click_status">状态</string>
+    <string name="one_click_status_api">publishStatus</string>
+    <string name="one_click_photo">照片</string>
+    <string name="one_click_photo_api">publishPhoto</string>
+    <string name="one_click_album">新建相册</string>
+    <string name="one_click_album_api">createAlbum</string>
+    
+    <string name="dialog_group">Dialog</string>
+    <string name="dialog_feed">Feed Dialog</string>
+    <string name="dialog_feed_api">publishFeed</string>
+    <string name="dialog_status">Status Dialog</string>
+    <string name="dialog_status_api">publishStatus</string>
+    
+    <string name="extensions_group">Extensions</string>
+    <string name="extensions_pay">支付</string>
+    <string name="extensions_pay_api">pay Extensions</string>
+    <!-- invoke names -->
+    <string name="logined_user_info_invoke">Renren.getUserInfo</string>
+    <string name="albums_info_invoke">Renren.getAlbums</string>
+    <string name="publish_status_invoke">Renren.publishStatus</string>
+    <string name="publish_feed_invoke">Renren.publishFeed</string>
+    <string name="publish_photo_invoke">Renren.publishPhoto</string>
+    <string name="one_click_status_invoke">Renren.publishStatusWithActivity</string>
+    <string name="one_click_photo_invoke">Renren.publishPhotoWithActivity</string>
+    <string name="dialog_feed_invoke">Renren.feedWidget</string>
+    <string name="dialog_status_invoke">Renren.statusWidget</string>
+	<string name="create_album_invoke">Renren.createAlbum</string>
+	<string name="one_click_album_invoke">Renren.createAlbumWithActivity</string>
+	<string name="users_getinfo_invoke">Renren.getUsersInfo</string>
+    <string name="friends_get_invoke">Renren.friends.get</string>
+    <string name="friends_get_friends_invoke">Renren.friends.getFriends</string>
+    <string name="extensions_pay_invoke">Renren.extensions.pay</string>
+    
+    <string name="auth_failed">验证失败</string>
+    
+    <string name="username"></string>
+    <string name="password"></string>
+    
+    <!-- Status publish activity -->
+    <string name="status_pub_title">发布状态</string>
+    <string name="status_label">状态</string>
+    <string name="status_pub_button">发布</string>
+    <string name="response_result">返回结果</string>
+    
+    <!-- log activity -->
+    <string name="clear_log">清空</string>
+    <string name="get_back">返回</string>
+    <string name="log_title">log记录</string>
+    
+    <!-- common -->
+    <string name="run">运行</string>
+    
+    <string name="renren_demo_status_hint">你正在干嘛？</string>
+    
+   <!-- pay activity -->
+   <string name="renren_demo_pay_title">支付测试Demo</string>
+   <string name="renren_demo_pay_amount">支付金额</string>
+   <string name="renren_demo_pay_order_number">订单编号</string>
+   <string name="renren_demo_pay_order_payment">payment</string>
+   <string name="renren_demo_pay_des">订单描述</string>
+   <string name="renren_demo_pay_pay">点击支付</string>
+   <string name="renren_demo_pay_open_repair">修复订单</string>
+   <string name="birthday">近期过生日的好友~</string>
+   <string name="birthday_login">生日提醒</string>
+   <string name="topic_login">搜索助手</string>
+   <string name="SetSMS">设置定时短信</string>
+    <string name="txtPhoneNo">请输入好友的号码</string>
+    <string name="txtContent">为TA的生日送上祝福吧~</string>
+    <string name="btnText">保存为定时短信</string>
+    <string name="location_login">绝对定位</string>
+    <string name="pubText">发布</string>
+    <string name="search_hint">搜索助手</string>
+    <string name="search_topic">搜索话题</string>
+    <string name="search_status">搜索状态</string>
+    <string name="focus">特别关注</string>
+    <string name="focuslist">请点击想关注的好友~</string>
+    <string name="mymap">好友足迹</string>
+</resources>

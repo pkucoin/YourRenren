@@ -1,0 +1,42 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>MarkerClusterer for Baidu Map Example</title>
+
+    <style type="text/css">
+        #mapDiv1 { height:600px; width:400px;}
+        #mapDiv2 { height:400px; width:600px; margin:20px; left:620px; top:-420px;}
+    </style>
+
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.2"></script>	
+    <script type="text/javascript" src="http://api.map.baidu.com/library/TextIconOverlay/1.2/src/TextIconOverlay_min.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/library/MarkerClusterer/1.2/src/MarkerClusterer_min.js"></script>
+  
+
+ </head>
+  <body>	
+    <input id="btn" type="button" value="Back"  />
+    
+    <div id="mapDiv1"></div>
+
+  </body>
+
+   <script type="text/javascript">
+       var EXAMPLE_URL = "http://api.map.baidu.com/library/MarkerClusterer/1.2/examples/";
+       var map = new BMap.Map("mapDiv1");
+       map.enableScrollWheelZoom();
+       var point = new BMap.Point(116.404, 39.915);
+       map.centerAndZoom(point, 12);
+       var btn = document.getElementById('btn');
+       btn.onclick = function () {
+           map.centerAndZoom(point, 12);       
+       };
+       
+
+
+
+       var MAX = 10;
+       var markers = [];
+       var pt = null;
+       var i = 0;

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+
+	<TextView android:id="@+id/list_name"
+		android:layout_gravity="center"
+		android:layout_marginTop="5dp"
+		android:layout_marginBottom="5dp"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		android:textColor="@color/Black"
+		android:textSize="12pt"/>
+
+</LinearLayout>
